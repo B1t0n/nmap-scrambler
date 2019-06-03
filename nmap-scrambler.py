@@ -144,6 +144,7 @@ print "Estimated number of commands:", len(grouped_ips_list)*len(grouped_ports_l
 nmap_cmds = []
 for group_of_ports in grouped_ports_list:
 	for gorup_of_ips in grouped_ips_list:
+		#Need to find a better refernce for the outputname
 		single_cmd = base_nmap_cmd + " -p" + str(",".join(group_of_ports)) + " " + " ".join(gorup_of_ips) + " -oA " + gorup_of_ips[0] + "_" + gorup_of_ips[-1] + ".Port" + str("_".join(group_of_ports))
 		nmap_cmds.append(single_cmd)
 
