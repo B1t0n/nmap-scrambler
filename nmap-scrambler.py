@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('-i', '--input', help='FILE CONTAINNING ONE NMAP COMMAND with all flags,IPs and ports to be scanned (TCP scan only)', required=True)
     parser.add_argument('-o', '--output', help='Output filename where the list of scrambled nmap commands will be wrritten', required=True)
     parser.add_argument('-n', '--ipcount', help='Number of IP addresses per generated nmap command', required=True)
-    parser.add_argument('-p', '--portcount', help='Number of IP addresses per generated nmap command', required=True)
+    parser.add_argument('-p', '--portcount', help='Number of ports per generated nmap command', required=True)
     args = parser.parse_args()
     return args
 
