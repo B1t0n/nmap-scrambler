@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # !/usr/bin/python
 #
-# Auhtor: 
+# Auhtor: B1t0n
 # Date  : 16.12.2018
 # ------------------------
 
